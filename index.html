@@ -1,81 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RealtorSaltLake.com - Domain for Sale</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RealtorSaltLake.com - Premium Domain For Sale</title>
+  <script src="https://unpkg.com/framer-motion/dist/framer-motion.umd.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
     body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #f3f4f6, #e2e8f0);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-    }
-    .container {
-      background: white;
-      padding: 2rem;
-      border-radius: 1rem;
-      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-      text-align: center;
-      max-width: 500px;
-    }
-    ul{
-      text-align: start;
-    }
-    h1 {
-      color: #2d3748;
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
-    }
-    p {
-      color: #4a5568;
-      font-size: 1.1rem;
-      margin-bottom: 1.5rem;
-    }
-    a.button {
-      display: inline-block;
-      background: #3182ce;
-      color: white;
-      text-decoration: none;
-      padding: 0.75rem 1.5rem;
-      border-radius: 0.5rem;
-      font-weight: bold;
-      transition: background 0.3s ease;
-    }
-    a.button:hover {
-      background: #2b6cb0;
+      font-family: 'Outfit', sans-serif;
     }
   </style>
 </head>
-<body>
-  <div class="container">
-    <h1>This Domain is For Sale</h1>
-    <p><strong>🌟 RealtorSaltLake.com 🌟</strong> </p>
+<body class="bg-gradient-to-br from-slate-50 to-slate-200 min-h-screen flex items-center justify-center px-6">
+  <div class="flex flex-col md:flex-row items-center bg-white rounded-3xl shadow-2xl overflow-hidden max-w-6xl w-full animate-fade-in">
+    
+    <!-- Image Side -->
+    <div class="w-full md:w-1/2 h-80 md:h-auto">
+ 	<h1 class="text-4xl pl-5 pb-5 font-extrabold text-slate-800 leading-tight">This Domain is For Sale</h1>
 
-<p>Imagine a vibrant online hub that effortlessly connects home buyers and sellers in the heart of Salt Lake City!
-      Welcome to RealtorsSaltLake.com – the ultimate domain for real estate professionals looking to elevate their
-      business and make a lasting impression in Utah's competitive market.</p>
+      <img 
+        src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" 
+        alt="Luxury Home in Salt Lake City" 
+        class="w-full  h-full object-cover hover:scale-105 transition-transform duration-700"
+      />
+    </div>
 
-<p><strong>🏘️ **Why RealtorsSaltLake.com?** </strong> </p>
-<p>This premium domain is short, memorable, and perfectly crafted for anyone in the real estate industry.
-    Whether you’re a seasoned realtor, a new agent, or a real estate agency, this web address instantly communicates your focus and
-  expertise in the Salt Lake area. </p>
-  
-    <p><strong>Why this domain stands out:</strong> </p>
-<ul>
- <li>Strong local SEO appeal (“Realtor Salt Lake” is commonly searched)</li>
+    <!-- Content Side -->
+    <div class="w-full md:w-1/2 p-8 md:p-12 space-y-6">
+    	<p class="text-4xl font-extrabold text-slate-800 leading-tight"><strong>🌟 RealtorSaltLake.com 🌟</strong></p>
+      <p class="text-slate-600 text-lg">
+        Unlock the prestige and SEO power of this premium domain—perfect for agents, brokerages, or real estate tech innovators targeting the Salt Lake City area.
+      </p>
 
- <li>Instantly professional and credible</li>
+      <div class="space-y-3">
+        <div class="flex items-start space-x-3">
+          <span class="text-blue-600 text-xl">✅</span>
+          <p class="text-slate-700">Boosts Local SEO & Trust</p>
+        </div>
+        <div class="flex items-start space-x-3">
+          <span class="text-blue-600 text-xl">✅</span>
+          <p class="text-slate-700">Memorable, Brandable & Marketable</p>
+        </div>
+        <div class="flex items-start space-x-3">
+          <span class="text-blue-600 text-xl">✅</span>
+          <p class="text-slate-700">Instant Professional Credibility</p>
+        </div>
+      </div>
 
- <li>Memorable, brandable, and easy to market</li>
-</ul>
+      <a href="mailto:caleb@realtorsaltlake.watches?subject=Offer for RealtorSaltLake.com"
+         class="inline-block mt-4 bg-blue-600 text-white text-lg font-semibold px-6 py-3 rounded-xl shadow-md hover:bg-blue-700 transition-all duration-300">
+        💼 Make an Offer
+      </a>
 
-</p>
-    <p>Interested in buying this domain?</p>
-    <a class="button" href="mailto:caleb@realtorsaltlake.watches?subject=Offer for RealtorSaltLake.com">Make an Offer</a>
+      <p class="text-xs text-slate-400 pt-2">Secure your premium real estate presence in Salt Lake today.</p>
+    </div>
   </div>
+
+  <script>
+    const { motion } = window['framer-motion'];
+    const element = document.querySelector('.animate-fade-in');
+
+    motion(element).fromTo(
+      { opacity: 0, y: 40 },
+      { opacity: 1, y: 0, duration: 1 }
+    );
+  </script>
 </body>
 </html>
